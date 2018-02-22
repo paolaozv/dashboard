@@ -1,0 +1,127 @@
+img.a-profile {
+  width: 30px;
+  border-radius: 5px;
+  position: relative;
+  top: 10px;
+}
+
+p.a-text-header {
+  display: inline-block;
+}
+
+input[type="text"] {
+  background: none;
+  border:none;
+  outline:0;
+}
+
+.m-boards p {
+  margin-left: 5px;
+}
+
+.m-search input {
+  margin-left: 5px;
+}
+
+.m-icons .a-icons {
+  margin: 0 10px;
+}
+
+.m-profile img {
+  margin-right: 10px;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 2px;
+  min-width: 100px;
+  padding: 10px 5px;
+  background-color: transparent;
+}
+
+.m-select .button-select {
+  background-color: white;
+}
+
+.m-select .button {
+  border: 1px solid lightgrey;
+}
+
+.t-chart h5 {
+  margin: 5px 10px;
+}
+
+.box .a-progress {
+  overflow: hidden;
+  height: 3px;
+  width: 150px;
+  background-color: lightgrey;
+  margin: 30px 0;
+  border-radius: 3px;
+}
+
+.a-progress .a-bar {
+  height: 3px;
+  background-color: #4286F4;
+  border-radius: 3px;
+  border-right: 2px solid white;
+}
+
+.a-progress .a-bar-b {
+  height: 3px;
+  background-color: #EF4A8C;
+  border-radius: 3px;
+}
+
+.a-progress .a-bar.a {
+  width: 50%;
+}
+
+.a-progress .a-bar.b {
+  width: 30%;
+}
+
+.a-progress .a-bar.c {
+  width: 20%;
+}
+
+.a-progress .a-bar.d {
+  width: 70%;
+}
+
+.box ul {
+  list-style: none;
+  margin: 5px 0 0 0;
+  padding-left: 10px;
+}
+
+.box ul li {
+  font-size: 12px;
+}
+
+.box ul li .a-profile {
+  margin-right: 10px;
+}
+
+.box label {
+  font-size: 12px;
+  display: block;
+  margin-top: 15px;
+}
+
+.box span {
+  font-size: 9px;
+  margin-left: 24px;
+}
+
+.m-boxes .m-right li.a-time {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+.box ul.a-percentege li {
+  margin-top: 20px;
+  margin-bottom: 15px;
+}

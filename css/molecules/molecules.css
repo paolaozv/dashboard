@@ -1,0 +1,42 @@
+.m-options {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 10px;
+}
+
+.m-options div {
+  min-width: 390px;
+}
+
+.m-options .m-select {
+  text-align: center;
+}
+
+.m-options .m-unselect {
+  text-align: right;
+}
+
+.m-boards {
+  margin: 0 20px;
+}
+
+.m-search {
+  margin: 0 20px;
+}
+
+.m-profile {
+  margin: 0 20px;
+}
+
+.m-icons {
+  margin: 0 10px;
+}
+
+.t-box-info .m-boxes {
+  display: flex;
+}
+
+.m-boxes .m-right {
+  margin-right: 30px;
+}

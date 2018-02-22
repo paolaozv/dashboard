@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="./css/utils/utils.css"/>
+    <link rel="stylesheet" href="./css/atoms/atoms.css"/>
+    <link rel="stylesheet" href="./css/molecules/molecules.css"/>
+    <link rel="stylesheet" href="./css/templates/templates.css"/>
+    <link rel="stylesheet" href="./css/media-queries.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  </head>
+  <body>
+    <header class="t-header">
+      <div class="total total-left">
+        <div class="m-boards inline-block">
+          <i class="fab fa-buromobelexperte"></i>
+          <p class="a-text-header">Boards</p>
+        </div>
+        <div class="m-search inline-block">
+          <i class="fas fa-search"></i>
+          <input type="text" placeholder="Search..."/>
+        </div>
+      </div>
+      <div class="total total-right">
+        <div class="m-profile inline-block">
+          <img class="a-profile" src="./img/photo.jpg" alt="Profile photo" />
+          <p class="a-text-header">Hello, Ana!</p>
+        </div>
+        <div class="m-icons inline-block">
+          <div class="a-icons inline-block">
+            <i class="far fa-bell"></i>
+          </div>
+          <div class="a-icons inline-block">
+            <i class="fas fa-bars"></i>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section class="t-dashboard">
+      <div class="container">
+        <div class="m-options">
+          <div class="m-title inline-block">
+            <h4>
+              <p class="star inline-block">
+                <i class="fas fa-star"></i>
+              </p>
+              Planner Board - Summary
+            </h4>
+          </div>
+          <div class="m-select inline-block">
+            <button class="button-select">Board stats</button>
+            <button class="button">My stats</button>
+          </div>
+          <div class="m-unselect inline-block">
+            <i class="fas fa-times"></i>
+          </div>
+        </div>
+        <div class="t-charts">
+          <div class="t-chart t-side">
+            <h5>TASKS COMPLETED</h5>
+            <i class="fas fa-ellipsis-h"></i>
+            <canvas id="pieChart"></canvas>
+          </div>
+          <div class="t-chart t-center">
+            <h5>RECENT ACTIVITY</h5>
+            <i class="fas fa-ellipsis-h"></i>
+            <canvas id="linearChart"></canvas>
+          </div>
+          <div class="t-chart t-side">
+            <h5>SUMMARY</h5>
+            <i class="fas fa-ellipsis-h"></i>
+            <canvas id="bubbleChart"></canvas>
+          </div>
+        </div>   
+      </div>
+    </section>
+    <section>
+      <div class="container">
+        <div class="t-box-info">
+          <div class="t-chart">
+            <h5>USER'S ACTIVITY</h5>
+            <div class="m-boxes">
+              <div class="box m-right">
+                <ul>
+                  <li>
+                    <img class="a-profile" src="./img/photo.jpg" alt="Profile photo" />
+                    Anna Klawikowska
+                  </li>
+                  <li>
+                    <img class="a-profile" src="./img/photo.jpg" alt="Profile photo" />
+                    Siergiej Soskowiec
+                  </li>
+                  <li>
+                    <img class="a-profile" src="./img/photo.jpg" alt="Profile photo" />
+                    Michal Parulski
+                  </li>
+                  <li>
+                    <img class="a-profile" src="./img/photo.jpg" alt="Profile photo" />
+                    Mateusz Czaijka
+                  </li>
+                </ul>
+                <ul>
+                  <li class="a-time">2 min ago</li>
+                  <li class="a-time">2h ago</li>
+                  <li class="a-time">4h ago</li>
+                  <li class="a-time">1 day ago</li>
+                </ul>
+              </div>
+              <div class="box">
+                <div>
+                  <div class="a-progress">
+                    <div class="a-bar a"></div>
+                  </div>
+                  <div class="a-progress">
+                    <div class="a-bar b"></div>
+                  </div>
+                  <div class="a-progress">
+                    <div class="a-bar c"></div>
+                  </div>
+                  <div class="a-progress">
+                    <div class="a-bar d"></div>
+                  </div>
+                </div>
+                <div>
+                  <ul class="a-percentege">
+                    <li>12/24</li>
+                    <li>21/22</li>
+                    <li>8/10</li>
+                    <li>12/26</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="t-chart">
+            <h5>LAST TASK</h5>
+            <div class="m-boxes">
+              <div class="box">
+                <div>
+                  <label for="document">
+                    <input type="checkbox" name="option" value="document"/>
+                    Create document list
+                  </label>
+                  <span>Design sprint</span>
+                  <label for="users">
+                    <input checked type="checkbox" name="option" value="users"/>
+                    Add new users to board
+                  </label>
+                  <span>Design sprint</span>
+                  <label for="list">
+                    <input type="checkbox" name="option" value="list"/>
+                    Create document list
+                  </label>
+                  <span>Design sprint</span>
+                </div>
+              </div>
+              <div class="box">
+                <div>
+                  <label for="document">
+                    <input type="checkbox" name="option" value="document"/>
+                    Create document list
+                  </label>
+                  <span>Design sprint</span>
+                  <label for="users">
+                    <input checked type="checkbox" name="option" value="users"/>
+                    Add new users to board
+                  </label>
+                  <span>Design sprint</span>
+                  <label for="list">
+                    <input type="checkbox" name="option" value="list"/>
+                    Create document list
+                  </label>
+                  <span>Design sprint</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.min.js"></script>
+    <script src="./js/charts.js"></script>
+  </body>
+</html>
