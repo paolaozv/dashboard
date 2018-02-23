@@ -2,6 +2,9 @@
   .m-options div {
     min-width: 280px;
   }
+  .active {
+    right: 72%;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -20,12 +23,15 @@
   .box ul li .a-profile {
     margin-bottom: 8px;
   }
-}
-
-@media screen and (max-width: 600px) {
   .m-options .m-unselect {
     display: none;
   }
+  .active {
+    right: 65%;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .t-charts {
     flex-wrap: wrap;
     justify-content: center;
@@ -53,6 +59,9 @@
   header.t-header .total-right {
     text-align: right;
   }
+  .active {
+    right: 50%;
+  }
 }
 
 @media screen and (max-width: 480px) {
@@ -62,7 +71,10 @@
   .box .a-progress {
     width: 100px;
   }
-  header.t-header .total {
-    text-align: center;
+  .active {
+    right: 40%;
+  }
+  .menu-contenedor {
+    max-width: 150px;
   }
 }

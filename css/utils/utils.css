@@ -32,3 +32,14 @@ body {
   color: white;
   margin-right: 10px;
 }
+
+.menu-contenedor {
+  height: 100%;
+  max-width: 200px;
+  margin: auto;
+  padding: 2em 0;
+}
+
+.close-right {
+  text-align: right;
+}

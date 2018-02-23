@@ -125,3 +125,11 @@ button {
   margin-top: 20px;
   margin-bottom: 15px;
 }
+
+.t-nav .a-title {
+  font-size: 15px;
+}
+
+.a-close {
+  cursor: pointer;
+}
